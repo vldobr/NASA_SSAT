@@ -1,0 +1,203 @@
+Received: from mustang.nps.edu (205.155.65.61) by SKYTRAIN.ern.nps.edu
+ (172.20.24.112) with Microsoft SMTP Server id 14.1.438.0; Thu, 11 Jul 2013
+ 12:58:15 -0700
+X-ASG-Debug-ID: 1373572694-0530a65360719a30001-CEzEKY
+Received: from listsrv2.nasaprs.com (listsrv2.nasaprs.com [209.190.239.79]) by
+ mustang.nps.edu with ESMTP id hblt3KnvisHk28WF; Thu, 11 Jul 2013 12:58:14
+ -0700 (PDT)
+X-Barracuda-Envelope-From: armd-bounces@listsrv2.nasaprs.com
+X-Barracuda-Apparent-Source-IP: 209.190.239.79
+Received: from listsrv2.nasaprs.com (listsrv2.nasaprs.com [127.0.0.1])	by
+ listsrv2.nasaprs.com (8.13.8/8.13.8) with ESMTP id r6BJPabX020112;	Thu, 11
+ Jul 2013 15:31:07 -0400
+Received: from mail1.nasaprs.com (mail1.nasaprs.com [10.20.3.6])	by
+ listsrv2.nasaprs.com (8.13.8/8.13.8) with ESMTP id r6BJPZtP020109	for
+ <armd@listsrv2.nasaprs.com>; Thu, 11 Jul 2013 15:25:35 -0400
+X-MDAV-Processed: mail1.nasaprs.com, Thu, 11 Jul 2013 15:24:27 -0400
+X-Spam-Processed: mail1.nasaprs.com, Thu, 11 Jul 2013 15:24:26 -0400
+X-Spam-Level:
+X-Spam-Status: No, score=-4.7 required=5.0 tests=BAYES_00,HTML_MESSAGE,
+	NO_RELAYS shortcircuit=no autolearn=ham version=3.3.2
+X-Spam-Report: * -0.0 NO_RELAYS Informational: message was not relayed via SMTP
+	* -4.7 BAYES_00 BODY: Bayes spam probability is 0 to 1%
+	*      [score: 0.0000]
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06)
+Received: from DVillamil by mail1.nasaprs.com (Cipher TLSv1:-SHA:128) (MDaemon
+	PRO v12.5.8) with ESMTP id md50006120082.msg	for <armd@listsrv2.nasaprs.com>;
+ Thu, 11 Jul 2013 15:24:25 -0400
+X-Return-Path: prvs=1904589bd5=nspires-help@nasaprs.com
+X-Envelope-From: nspires-help@nasaprs.com
+X-MDaemon-Deliver-To: armd@listsrv2.nasaprs.com
+To: <armd@listsrv2.nasaprs.com>
+Date: Thu, 11 Jul 2013 15:24:21 -0400
+Message-ID: <027501ce7e6c$3ee5d320$bcb17960$@nasaprs.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0276_01CE7E4A.B7D43320"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Ac5+ay1hWLYVom3RQli5wilzWrF+sQ==
+Content-Language: en-us
+From: <armd@listsrv2.nasaprs.com>
+Subject: [armd] ROA-2013 Amendment 3: System-Wide Safety Assurance
+	Technologies (SSAT)
+X-BeenThere: armd@listsrv2.nasaprs.com
+X-ASG-Orig-Subj: [armd] ROA-2013 Amendment 3: System-Wide Safety Assurance
+	Technologies (SSAT)
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <armd.listsrv2.nasaprs.com>
+List-Unsubscribe: <https://listsrv2.nasaprs.com/mailman/listinfo/armd>,
+	<mailto:armd-request@listsrv2.nasaprs.com?subject=unsubscribe>
+List-Archive: <https://listsrv2.nasaprs.com/mailman/private/armd>
+List-Post: <mailto:armd@listsrv2.nasaprs.com>
+List-Help: <mailto:armd-request@listsrv2.nasaprs.com?subject=help>
+List-Subscribe: <https://listsrv2.nasaprs.com/mailman/listinfo/armd>,
+	<mailto:armd-request@listsrv2.nasaprs.com?subject=subscribe>
+Sender: <armd-bounces@listsrv2.nasaprs.com>
+Errors-To: armd-bounces@listsrv2.nasaprs.com
+X-Barracuda-Connect: listsrv2.nasaprs.com[209.190.239.79]
+X-Barracuda-Start-Time: 1373572694
+X-Barracuda-URL: http://205.155.65.61:80/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at nps.edu
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=2.9 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=BSF_SC0_MISMATCH_TO, HTML_MESSAGE, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.136480
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 NO_REAL_NAME           From: does not include a real name
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: armd-bounces@listsrv2.nasaprs.com
+X-MS-Exchange-Organization-AuthSource: skytrain.ern.nps.edu
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+------=_NextPart_000_0276_01CE7E4A.B7D43320
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Amendment 3 to the NASA ARMD Research Opportunities in Aeronautics (ROA)
+2013 NRA (NNH13ZEA001N) has been posted on the NSPIRES web site at
+http://nspires.nasaprs.com.
+
+ 
+
+This release includes the following 6 topics in Appendix B.2 for
+foundational research in support of the System-Wide Safety Assurance
+Technologies Project:  (1) Software Intensive Systems: Verification and
+Validation of Model-Based and Adaptive Systems; (2) Software Intensive
+Systems: Support for Verification of Black-Box Flight Critical Software; (3)
+Software Intensive Systems: Qualification of Formal Methods Tools; (4)
+Distributed Systems: Onboard Integrated Distributed Systems; (5) Distributed
+Systems: Distributed Airspace Systems; (6) Authority and Autonomy: Safety
+Analysis of Multiple Human-System Interactions in the NAS.
+
+ 
+
+NOIs are due July 22, 2013 and proposals are due August 22, 2013.
+
+ 
+
+_______________________________________________
+
+You are receiving this email because you have subscribed, through NSPIRES,
+to a NASA directorate or office-specific mail list.  If you wish to
+unsubscribe to this mail list, access your NSPIRES account, click on Account
+Management, then click the Email Subscriptions link.  If you need
+assistance, please contact the NSPIRES Help Desk at
+<mailto:NSPIRES-Help@nasaprs.com> NSPIRES-Help@nasaprs.com or call
+202-479-9376.
+
+
+------=_NextPart_000_0276_01CE7E4A.B7D43320
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.apple-style-span
+	{mso-style-name:apple-style-span;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3D"EN-US" link=3D"blue"=
+ vlink=3D"purple"><div class=3D"WordSection1"><p class=3D"MsoNormal"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:black">Amendment 3 to the NASA ARMD Research Opportunities in Aer=
+onautics (ROA) 2013 NRA (NNH13ZEA001N) has been posted on the NSPIRES web s=
+ite at <a href=3D"http://nspires.nasaprs.com">http://nspires.nasaprs.com</a=
+>.<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>=
+&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">This r=
+elease includes the following 6 topics in Appendix B.2 for foundational res=
+earch in support of the System-Wide Safety Assurance Technologies Project:&=
+nbsp; (1) Software Intensive Systems: Verification and Validation of Model-=
+Based and Adaptive Systems; (2) Software Intensive Systems: Support for Ver=
+ification of Black-Box Flight Critical Software; (3) Software Intensive Sys=
+tems: Qualification of Formal Methods Tools; (4) Distributed Systems: Onboa=
+rd Integrated Distributed Systems; (5) Distributed Systems: Distributed Air=
+space Systems; (6) Authority and Autonomy: Safety Analysis of Multiple Huma=
+n-System Interactions in the NAS.<o:p></o:p></span></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;color:black"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal=
+"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-=
+serif&quot;;color:black">NOIs are due July 22, 2013 and proposals are due A=
+ugust 22, 2013.<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:=
+black">_______________________________________________</span><span style=3D=
+"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;col=
+or:black"><o:p></o:p></span></p><p class=3D"MsoNormal"><em><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:=
+black">You are receiving this email because you have subscribed, through NS=
+PIRES, to a NASA directorate or office-specific mail list.&nbsp; If you wis=
+h to unsubscribe to this mail list, access your NSPIRES account, click on A=
+ccount Management, then click the Email Subscriptions link. &nbsp;If you ne=
+ed assistance, please contact the NSPIRES Help Desk at&nbsp;<a href=3D"mail=
+to:NSPIRES-Help@nasaprs.com"><span style=3D"font-style:normal">NSPIRES-Help=
+@nasaprs.com</span></a> or call 202-479-9376.</span></em><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;color:b=
+lack"><o:p></o:p></span></p></div></body></html>=
+
+------=_NextPart_000_0276_01CE7E4A.B7D43320--
