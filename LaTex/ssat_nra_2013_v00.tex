@@ -129,13 +129,13 @@
 %==============================================================================
 
 %------------------------------------------------------------------------------
-\textbf{\emph{Objective}:} The proposed research will develop an analytical framework for assessing the impact of low-connectivity conditions on the automated separation assurance of multiple cooperative airplanes sharing the same air-space. The Intergraded Separation Assurance In Low Connectivity (iSEAL) framework explicitly takes into account the switching topology and possibly degrading connectivity of the existing communication networks and performance characteristics of heterogeneous airplanes. The ultimate goal of the SEAL framework is to provide a rapidly accessible and trustworthy tool for assessing the separation guarantees of a given number of ATC sectors filled with a number of airplanes with partially known communication capabilities. The tool is envisioned to be seamlessly integrated into existing mode of ATC operations. The technical challenges that will be addressed with iSEAL are the four subtopics of AFSC-1.5:
+\textbf{\emph{Objective}:} The proposed research will develop an analytical framework for assessing the impact of low-connectivity conditions on the automated separation assurance of multiple cooperative airplanes sharing the same air-space. The Intergraded Separation Assurance In Low-Connectivity (iSEAL) framework takes into account the switching topology and possibly degrading connectivity of the existing communication networks and performance characteristics of heterogeneous airplanes. The ultimate goal of the iSEAL framework is to provide a rapidly accessible and verifiable tool for assessing the separation guarantees of a given number of airplanes in a given ATC sector with partially known communication capabilities. The tool is envisioned to be integrated into existing mode of ATC operations as an advisory tool. The technical challenges that will be addressed with iSEAL are the four subtopics of AFSC-1.5:
 \begin{itemize}
 \setlength{\itemsep}{-4pt}
-\vspace{-2mm}
-    \item develop an integrated view of the failure space comprised of individual and integrated communication technologies,
-    \item develop the fault detection metrics and provide a unified mitigation strategy while operating under existing communication limitations,
-    \item understand the impact of existing communication constraints onto the separation assurance performance of the proposed unified strategy, and
+%\vspace{-2mm}
+    \item formalize the failure space set comprised of individual and integrated communication technologies,
+    \item develop the fault detection metrics and provide a unified mitigation strategy while operating under existing  limitations of communication technologies,
+    \item understand the impact of various types of existing communication constraints onto the separation assurance performance of the proposed unified strategy, and
     \item develop a mechanism by which communication disruptions and associated detection and mitigation strategies will guarantee separation assurance.
 \end{itemize}
 
@@ -182,30 +182,28 @@
 %------------------------------------------------------------------------------
 
 \vspace{-1mm}
-Research will build upon past expertise with the Coordinated Path Following (CPF) of Multiple UAVs project and the use of advanced adaptive control strategies to ensure a predictable response of a system of multiple heterogeneous UAVs sharing the same airspace in the presence of adverse communication conditions.The adverse conditions include degradation of the update rate of state information shared across underlying communication network, senors failure represented by degradation of precision, and partial loss of states such as velocity while preserving position or vice versa. Special emphasis will be placed on cumulative degradation of communication topology and means of estimating of mis-communicated states across the time varying network. The proposed solution is based on transforming the key theoretical results of the CPF framework that is based on the 4D notion of trajectory representation that consists of the 3-dimensional analytical definition of path and the 1-dimensional velocity profile associated with the path. Multiple airplanes can be safely assigned to follow the same paths that intersect in space but are still separated in time. The CPF concept naturally fits the NextGen 4D notion of the airspace utilization; its fundamental results are a perfect match for the key objectives of the nation-wide program.
+Research will build upon past expertise with the Coordinated Path Following (CPF) of Multiple UAVs project and the use of advanced adaptive control strategies to ensure a predictable response of a system of multiple heterogeneous airplanes sharing the same airspace in the presence of adverse communication conditions.The adverse communication conditions are defined by the degradation of the quality of communicated states which uniquely identify relative position and intent of the airplanes along their routes. This quality can be defined with respect to the completeness of the state vector that defines the state of the airplane (position, speed course, trajectory angle, intent), the update rate of the states communication across the network, and the degraded network topology that has disconnected segments. Special emphasis will be placed on the cumulative degradation over time of the communication topology and advanced algorithms of estimating of partially-communicated states across the time varying network.
 
+The proposed solution is based on transforming the key theoretical results of the CPF framework that is based on the 4D notion of trajectory representation that consists of the 3-dimensional analytical definition of path and the 1-dimensional velocity profile associated with the path. Multiple airplanes can be safely assigned to follow the same paths that intersect in space but are still separated in time. The CPF concept naturally fits the NextGen 4D notion of the airspace utilization; the CPF fundamental results are a perfect match for the key objectives of the nation-wide program.
 
 \medskip
 
 %------------------------------------------------------------------------------
-\textbf{\emph{Expected Outcomes and Benefits}:} The expected outcome from this research effort is the iSEAL system (depicted in the figure). For a given ATC sector the system will ingest the current ATC status, airplane types and their communication capabilities, given ground support infrastructure of an ATC sector and produce the detailed report addressing possible violations and remedies, the report will address the following:
+\textbf{\emph{Expected Outcomes and Benefits}:} The expected outcome from this research effort is the iSEAL system (depicted in the figure). For a given ATC sector the system will ingest the current ATC status (class and geometry of the airspace segment, number and type of airplanes along with the assigned routes,  the communication capabilities of airborne assets and given ground support infrastructure) and produce the detailed report addressing possible separation assurance violations and remedies. The report will address the following:
 \begin{itemize}
-    \item possible violations of separation assurance with detalization of specific routes and airplanes involved,
-    \item proposed strategies to eliminate the separation faults expressed as adjustments of the speed control laws for each of the airplanes potentially involved in collision,
-    \item ability to submit this strategies onboard of airplanes for timely execution,
-    \item ability to execute the iSEAL system algorithms either on the ground as an assessment tool or to implement it onboard as a part of a pilot advisory system in a distributed fashion to facilitate any desired level of automation.
+    \setlength{\itemsep}{-4pt}
+	\item possible violations of separation assurance with identification of specific routes and airplanes involved,
+    	\item proposed strategies to eliminate the separation faults expressed as adjustments of the speed control laws for each of the airplanes potentially involved in a collision,
+    	\item ability to submit this strategies onboard of airplanes for timely execution,
+    	\item ability to execute the iSEAL system algorithms either on the ground as an assessment tool or to implement it onboard as a part of a pilot advisory system in a distributed fashion to facilitate any desired level of automation.
 \end {itemize}
         
-The following algorithms will be developed: $(i)$~algorithms for detection of possible separation violations that are able to identify the route and the airplanes involved; $(ii)$~the prioritization algorithms that produce an time-ordered sequence of possible violations; $(iii)$ - the recommended speed control laws capable to eliminate the violation; $(iv)$~the estimation algorithms to predict the position of neighboring airplanes in the sector which are not communicating their states. The main benefit will be a \emph{safer} automatic separation assurance system as envisioned under the NextGen concept in the 2025 time frame.
-
+The following algorithms will be developed: $(i)$~the algorithms for detection of possible separation violations that identify the route and the airplanes involved; $(ii)$~the prioritization algorithms that produce a time-ordered sequence of possible violations; $(iii)$ - the recommended speed control laws capable to eliminate the violations; $(iv)$~the estimation algorithms that predict the position of neighboring airplanes which do not communicate their states. The main benefit will be a \emph{safer} automatic separation assurance system as envisioned under the NextGen concept in the 2025 time frame.
 \medskip
 
 %------------------------------------------------------------------------------
-\textbf{\emph{Relevance to NASA Strategic Plan}:} The proposed research assures safe operation under the current communicatio technologies employed in NAS and existing air traffic mode of operation. Besides compliance with current state of the art in NAS, the iSEAL framework perfectly matches the NextGen concept through applying its 4D-based trajectory representation, relying on distributed communication and computational capabilities that provide unprecedented scalability benefits for the robust efficiency of future NAS. 
-In particular, the proposed framework addresses the fundamental objectives of Subtopic\mbox{AFCS-1.5} that is part of the System-Wide Safety Assurance Technologies Project (SSAT) and announced by the NASA Aeronautics Research Mission Directorate in support of NASA Strategic Goal~4 and Outcomes~4.1 and 4.2.
-
-
-
+\textbf{\emph{Relevance to NASA Strategic Plan}:} The proposed research introduces novel distributed control tools and methods that facilitate automation in airspace management while preserving robust separation assurance properties through scalability and cooperative computation. The proposed framework  assures safe operation under the communication technologies  and the air traffic mode of operation defined for NextGen. Besides compliance with current state of the art in NAS, the iSEAL framework perfectly matches the NextGen concept through applying its 4D-based trajectory representation, relying on distributed communication and computational capabilities that provide unprecedented scalable benefits and efficiency for the increased capacity of future NAS. 
+In particular, the proposed framework addresses the fundamental objectives of Subtopic~\mbox{AFCS-1.5} that is part of the System-Wide Safety Assurance Technologies Project (SSAT) and announced by the NASA Aeronautics Research Mission Directorate in support of NASA Strategic Goal~4 and Outcomes~4.1 and 4.2.
 
 %==============================================================================
 \section{Objectives and Significance of the Proposed Research}
