@@ -128,15 +128,15 @@ The technical challenges that will be addressed are the four subtopics of AFSC-1
 \end{itemize}
 \vspace{-2mm}
 %--------------------------  FIGURE  ------------------------------------------
-\begin{wrapfigure}{r}{0.55\textwidth}
-\centering
-\vspace{-0mm}
-\includegraphics[angle=0,width=0.55\textwidth,]{iSEALC.png}
-\caption*{\footnotesize iSEALC: \textbf{I}ntegrated \textbf{Se}paration \textbf{A}ssurance in \textbf{L}ow \textbf{C}onnectivity conditions.}
-\label{fig:ISEALC}
-\end{wrapfigure}
-%------------------------------------------------------------------------------
-\vspace{-1mm}
+%\begin{wrapfigure}{r}{0.55\textwidth}
+%\centering
+%\vspace{-0mm}
+%\includegraphics[angle=0,width=0.55\textwidth,]{iSEALC.png}
+%\caption*{\footnotesize iSEALC: \textbf{I}ntegrated \textbf{Se}paration \textbf{A}ssurance in \textbf{L}ow \textbf{C}onnectivity conditions.}
+%\label{fig:ISEALC}
+%\end{wrapfigure}
+%%------------------------------------------------------------------------------
+%\vspace{-1mm}
 
 Research will build upon past expertise with the Coordinated Path Following (CPF) of Multiple UAVs project and the use of novel adaptive control strategies to ensure a predictable response of a system of multiple aircraft sharing the same airspace in the presence of adverse communication conditions.
 %The adverse communication conditions were defined by the degradation of the quality of communicated states which uniquely identify relative position and intent of the airplanes along their routes.
@@ -217,9 +217,9 @@ We believe that integrating iSEALC architecture will be constructive in fundamen
 % -----------------------------------------------------------------------------
 \subsection{Background and Motivation }
 % -----------------------------------------------------------------------------
-In 2006 it was estimated~\cite{FAA_ATO_2006} that there were about 7,000 aircraft occupying national airspace (NAS) at any given time. This number implies that there are almost 50,000 aircraft transiting the NAS everyday. The airspace is busy being constantly under stress and diverse set of adverse conditions coming from both the human and technological factors, as well as from the environment. Although the rate of air traffic control (ATC) errors of various categories remains low,  when taken cumulatively over a longer period of time, the dynamics of the ATC error rate in 2006 indicate a $68\%$  increase when compared to those reported in 1998~\cite{USAToday_2006}. According to FAA statistics, the number of reported operational errors increased by more than 50 percent between fiscal years 2009 and 2010. Thus, considering a constantly increasing air traffic density, this positive trend in ATC and operational error rates might result in a serious increase in the number of accidents in near future. 
+In 2006 it was estimated~\cite{FAA_ATO_2006} that there were about 7,000 aircraft occupying national airspace (NAS) at any given time. This number implies that there are almost 50,000 aircraft transiting the NAS everyday. The airspace is busy being constantly under stress and diverse set of adverse conditions coming from both the human and technological factors, as well as from the environment. Although the rate of air traffic control (ATC) errors of various categories remains low,  when taken cumulatively over a longer period of time, the dynamics of the ATC error rate in 2006 indicate a $68\%$  increase when compared to those reported in 1998~\cite{USAToday_2006}. According to FAA statistics, the number of reported operational errors increased by more than 50 percent between fiscal years 2009 and 2010. Thus, considering a constantly increasing air traffic density, this positive trend in ATC and operational error rates might result in a serious increase in the number of accidents in near future.
 
-One of the parameters defining the safety of flight is the separation distance between aircraft. To help maintaining safe separation distances between aircraft, while under the control of ATC personnel, the Federal Aviation Administration (FAA) established minimum separation standards based on the aircraft phase of flight and size. The ATC airspace surveillance infrastructure and controllers are responsible for providing instructions and advisories to pilots. 
+One of the parameters defining the safety of flight is the separation distance between aircraft. To help maintaining safe separation distances between aircraft, while under the control of ATC personnel, the Federal Aviation Administration (FAA) established minimum separation standards based on the aircraft phase of flight and size. The ATC airspace surveillance infrastructure and controllers are responsible for providing instructions and advisories to pilots.
 
 Loss of standard separation (LOS) is an event when aircraft do not maintain the minimum distance apart. Despite significant efforts of a number of government authorities including the FAA and the National Transportation Safety Board (NTSB) the violation of LOS constraints still remains a significant safety concern~\cite{OIG_AR2013}. If unobserved or not timely and properly addressed the LOS encounter may result in near midair collisions and midair collisions (MAC) between aircraft in flight. Note, that most MAC incidents are direct results of LOS occurrence, while not every LOS event leads to a collision. On the same note, a MAC is an event observed and reported by a pilot that is based solely on a pilot's perspective, not on hard data. A loss of separation is based on hard data obtained by various instrumentation including radar data and their factual measurements that are thoroughly tracked.
 
@@ -227,7 +227,7 @@ First, it is worth illustrating the widespread of LOS events and the general nat
 
 On February 6, 2013  a number of  passenger planes were involved in a serious LOS incident in Finland~\cite{Vantaa_IR2013}.  Three civil aircraft were on approach to runway at Helsinki-Vantaa Airport; Norwegian Boeing-737, was on final approach, followed by a Flybe Nordic ATR, and a British Airways Airbus A320. A \emph{sequence of uncoordinated events} between aircrafts and the ATC controller cased two sequential breaches of separation minima between each aircraft in pairs. Although there was no risk of collision according to the Safety Investigation Authority Finland~\cite{Vantaa_IR2013}, the LOS event was classified as a 'serious incident'.
 
-On July 29th, 2011, a loss of separation occurred between two Boeing-737 aircrafts in the holding pattern at 93 miles south-west of Brisbane, Queensland\cite{Brisbane_ATSR2011}. The aircraft were inbound to Brisbane airport on the same air route, with a requirement to hold at BLAKA for sequencing. The air traffic controller did not identify that the sequence in which the two aircraft entered the holding pattern had changed, and twice assigned one of the aircraft descent through the flight level of another. The flight crew of lower flying aircraft identified the conflict and queried the controller, who then took action to recover the compromised separation situation. During the LOS event the separation reduced to 3.9 miles and 400 ft, while the required separation standard was 5 miles and 1000 ft. The Australian transport safety bureau identified that the controller was \emph{insufficiently trained}, and had not consolidated effective control techniques for the sector, particularly for high-workload situations. 
+On July 29th, 2011, a loss of separation occurred between two Boeing-737 aircrafts in the holding pattern at 93 miles south-west of Brisbane, Queensland\cite{Brisbane_ATSR2011}. The aircraft were inbound to Brisbane airport on the same air route, with a requirement to hold at BLAKA for sequencing. The air traffic controller did not identify that the sequence in which the two aircraft entered the holding pattern had changed, and twice assigned one of the aircraft descent through the flight level of another. The flight crew of lower flying aircraft identified the conflict and queried the controller, who then took action to recover the compromised separation situation. During the LOS event the separation reduced to 3.9 miles and 400 ft, while the required separation standard was 5 miles and 1000 ft. The Australian transport safety bureau identified that the controller was \emph{insufficiently trained}, and had not consolidated effective control techniques for the sector, particularly for high-workload situations.
 
 The examples present very limited information taken primarily from the high-end instrumented aircraft and sufficient level of ATC support. However they do illustrate that the general practices and regulations tend to assign human error as the primary cause for the LOS incident. While the required human training and stuffing side is taken care by a number of FAA procedural changes and regulations\cite{OIG_AR2013} the lack of technology support is also evident. The number and variety of disparate sources of information characterizing excessively complex airspace require significant automation to be developed in support of airspace management. The algorithms of predicting potential LOS event for much longer time, possibly up to the remaining flight duration, as a desired metric still need to be developed. Automatic assignment of en route and terminal approach sequencing of aircraft need to be automated and made dependent on the performance and equipage of the aircraft. The strategies accounting for the degraded communication among the ATC personnel on the ground and the airborne aircraft need to be developed.
 
@@ -235,13 +235,13 @@ At the same time, it also clear that there is no seldom single cause for an airc
 
 It is important to observe that although the current mode of airspace management assumes detailed knowledge of flight plan of every commercial aircraft that includes the detailed route and assigned speed profile, yet the LOS and MAC events happen. The probability of these events is unevenly shared between the en route and terminal airspace segments with the latter one contributing the vast majority of the occurrences; various sources including government authorities, industry and private sector provide inconsistent and therefore significantly ranging data, however the dominance of terminal airspace is obvious.
 
-Furthermore, it is evident that ATC controllers have access to enormous amount of information obtained by disparate sources. Although supported by a number of technologies it is still their responsibility to fuse heterogeneous sources of information, interpret and keep updating the situational awareness so that their advisories to the crew are timely and unambiguous. On the other hand, the pilots have significant degree of freedom of interpretation of the advisories and the onboard instrumentation readings. Thus, being under stress of close proximity flight, they are often confused with frequent advisories~\cite{Kochenderfer_2012} given by the onboard systems (TACAS, ACAS, ACASx) on one hand and the instructions received from the ATC controllers on the other. When overloaded, the pilot is likely to make a mistake leading to fatal consequences. Therefore, although human errors are the biggest contributors to the LOS accidents, the current operational load of ATC controllers and pilots is approaching its limit. There is obvious need not only to automate the heterogeneous information fusion but also to develop tools and methods that would detect the possibility of LOS way ahead of its occurrence. 
+Furthermore, it is evident that ATC controllers have access to enormous amount of information obtained by disparate sources. Although supported by a number of technologies it is still their responsibility to fuse heterogeneous sources of information, interpret and keep updating the situational awareness so that their advisories to the crew are timely and unambiguous. On the other hand, the pilots have significant degree of freedom of interpretation of the advisories and the onboard instrumentation readings. Thus, being under stress of close proximity flight, they are often confused with frequent advisories~\cite{Kochenderfer_2012} given by the onboard systems (TACAS, ACAS, ACASx) on one hand and the instructions received from the ATC controllers on the other. When overloaded, the pilot is likely to make a mistake leading to fatal consequences. Therefore, although human errors are the biggest contributors to the LOS accidents, the current operational load of ATC controllers and pilots is approaching its limit. There is obvious need not only to automate the heterogeneous information fusion but also to develop tools and methods that would detect the possibility of LOS way ahead of its occurrence.
 
 %As a result this separation of responsibilities, the most LOS events are classified as an  \emph{operational error} ,when the controller's actions caused the loss, while if the pilot's actions caused the LOS it is classified as a pilot \emph{deviation} and are not typically associated with errors caused by the situational awareness (instruments and algorithms) and data communication infrastructure.
 
 Prevention of separation violation accidents becomes even more crucial in future airspace operations under the NextGen Air Transportation  System~\cite{NextGen_ConOps}. The NextGen concept envisions highly-integrated airspace operations in the 2025 time frame, necessary in order to cope with the rapid growth of air travel and operational diversity. The NextGen concept of operations includes high-density, all-weather, and self-separation operational concepts, and is also expected to allow mixed-capability aircraft to operate within the same airspace, including piloted aircraft and unmanned aircraft systems. Solution to this growing demand for high density self-separated airflow is in distributed automation that allows for desired scalability of algorithms and guarantees high robustness of the entire airspace management system to a failure of its single element.
 
-%%Formulate the problem that was addressed by the old technologies. Highlight what is wrong with that setup. 
+%%Formulate the problem that was addressed by the old technologies. Highlight what is wrong with that setup.
 
 %ClosestProximity - The smallest distance ( point-to-point straight line in space) between two aircraft during an airborne loss of standard separation occurrence, regardless of geometry or percent of separation remaining.
 
@@ -253,7 +253,7 @@ Prevention of separation violation accidents becomes even more crucial in future
 
 %%Still what is the fundamental deficiency => Address separation asssurance only in the last minutes prioir to possible collision. Although very usefull it needs significant modification to enable analysisi of potential LOS accident from the beginning of the flight - injection point.
 
-%%What we propose - deign nonintersecting in time trajectories, then DO precise automatic PF and coordinate with the rest over networks. 
+%%What we propose - deign nonintersecting in time trajectories, then DO precise automatic PF and coordinate with the rest over networks.
 
 %Before a solution can be formulated, it is necessary to obtain a quantitative definition of separation violation that is generally accepted among the investigators and researchers in this area.
 
@@ -270,7 +270,7 @@ In the context of automatic separation assurance as a part of the NextGen, the d
 
 The research team has successfully completed extensive research~\cite{xargay2012csm} in three key areas of this proposal: \emph{cooperative control of multiagent heterogeneous systems}, \emph{coordination performance degradation under adverse communication conditions}, and \emph{online estimation of partially known coordination states resulted from low-communication conditions}. Furthermore, the team made serious efforts to validate the key theoretical claims in a series of flight experiments involving multiple coordinated UAVs. The proposed research will build further upon these results. Therefore, an overview of the results is presented in this section.
 
-\subsubsection{The Concept of Distributed Coordinaton }
+\subsubsection{The Concept of Distributed Coordination }
 
 ...
 
@@ -278,7 +278,8 @@ The research team has successfully completed extensive research~\cite{xargay2012
 
 ...
 
-\subsubsection{Online estimation of partially known coordination states resulted from low-communication conditions}
+%\subsubsection{Online estimation of partially known coordination states resulted from low-communication conditions}
+% this subsection proposes new development . It should go to 
 
 % -----------------------------------------------------------------------------
 \subsection{The Framework for Prevention of Loss of Separation }
@@ -286,20 +287,33 @@ The research team has successfully completed extensive research~\cite{xargay2012
 % -----------------------------------------------------------------------------
 
 \subsubsection{Overview}
-The architecture of iSEALC framework proposed in this research effort adopts the concept and the key methods of coordinated distributed path following that were introduced in the previous section. The iSEALC framework extends the developed  approach with algorithms and control schemes capable of rapidly identifying potential violations of separation assurance for given performance of heterogeneous aircrafts. It is assumed in the following that the aircraft exhibit nominal flight performance and can accelerate and decelerate, climb and descent with nominal known characteristics.  Although degradation of flight dynamics characteristics is out of scope of this proposal, the originally developed CPF framework also addresses this problem and therefore corresponding tolls and methods can easily extend the solution proposed by iSEALC framework.
+The architecture of iSEALC framework proposed in this research effort adopts the concept and the key methods of coordinated path following that were introduced in the previous section. The iSEALC framework extends the developed  approach with algorithms and control schemes capable of rapidly identifying potential violations of separation assurance for given performance of heterogeneous aircrafts. 
+
+While the originally developed coordination algorithms provide robustness guarantees with respect to intermittent loss of communication the envisioned high density of future air-traffic and the complexity of networked communication still call for novel approaches that can accommodate unforseen conditions. To address this problem we propose to develop a set of onboard proactive estimators to improve the knowledge that each airplane (or node in the network of aircraft) has about the coordination states of other vehicles, while  broadcasting its own coordination state to its neighbors, as determined by the time-varying communications topology. The states of the local estimators can then be used by the decentralized control law to enforce vehicle coordination even during time-intervals when the actual coordination states of ''neighboring`` vehicles are not available. The use of local proactive estimators improves the convergence rate of the closed-loop coordination dynamics in low-connectivity scenarios.
+
+In the following we first formulate the task statement that the iSEALC framework solves and the building blocks of the proposed framework including the proactive estimators and the required software infrastructure necessary to interface with the real ATC data.
+
+
+
+\subsubsection{Task Statement for the }
+
+\subsubsection{Design of Proactive Estimators}
+... Enric
+\subsubsection{Functionality of the Framework and its Key Elements}
+It is assumed in the following that the aircraft exhibit nominal flight performance and can accelerate and decelerate, climb and descent with nominal known characteristics.  Although degradation of flight dynamics characteristics is out of scope of this proposal, the originally developed CPF framework also addresses this problem and therefore corresponding tolls and methods can easily extend the solution proposed by iSEALC framework.
 
 The envisioned functionality of iSEALC framework is based on the following key elements (see Figure\ref{fig:KeyAlg} for illustration):
-
-%--------------------------  FIGURE  ------------------------------------------
-\begin{figure}[thpb]
-\centering
-\vspace{-0mm}
-\includegraphics[angle=0,width=1\textwidth,]{key_alg.png}
-\caption{Key functional elements of the iSEALC framework.}
-\label{fig:KeyAlg}
-\end{figure}
-%------------------------------------------------------------------------------
-\vspace{-1mm}
+%
+%%--------------------------  FIGURE  ------------------------------------------
+%\begin{figure}[thpb]
+%\centering
+%\vspace{-0mm}
+%\includegraphics[angle=0,width=1\textwidth,]{key_alg.png}
+%\caption{Key functional elements of the iSEALC framework.}
+%\label{fig:KeyAlg}
+%\end{figure}
+%%------------------------------------------------------------------------------
+%\vspace{-1mm}
 
 %------------------------------------------------------------------------------
 %------------------------------------------------------------------------------
@@ -313,13 +327,13 @@ The controller assumes that the own aircraft flight dynamics characteristics are
 
 \item \textbf{\emph{Proactive state estimator of neighboring aircraft (PNE)}:} The PNE is an onboard estimator that is developed to improve the knowledge that each airplane (or node in the network of aircraft) has about the coordination states of other vehicles, while  broadcasting its own coordination state to its neighbors, as determined by the time-varying communications topology. The states of the local estimators can then be used by the DCL law to enforce vehicle coordination even during time-intervals when the actual coordination states of ''neighboring`` vehicles are not available. The use of local PNE estimators improves the convergence rate of the closed-loop coordination dynamics in low-connectivity scenarios. The input to the PNE is the same as the input to the DCL law - the communication topology and the coordination variables.
 
-Besides improving  the convergence rate of the coordination dynamics, the PNE estimators introduce novel strategies that control the communication links between each vehicle and its estimators; in other words, PNE defines the desired rate of communication and defines the conditions of when to transmit and when to listen the coordination states. This approach leads to an evolving network, whose topology depends on the local exchange of information among the ''neighboring`` nodes. 
+Besides improving  the convergence rate of the coordination dynamics, the PNE estimators introduce novel strategies that control the communication links between each vehicle and its estimators; in other words, PNE defines the desired rate of communication and defines the conditions of when to transmit and when to listen the coordination states. This approach leads to an evolving network, whose topology depends on the local exchange of information among the ''neighboring`` nodes.
 
-\item \textbf{\emph{Predictor of LOS event (LOS)}:} The LOS predictor is an open-loop ''integrator`` that dead reckons the speed dynamics of all airplanes that communicate their state(position on the path), current speed and the intent (parameterized path). The time of integration is defined by the ''neighboring`` aircraft that is positioned at the longest distance from the own craft. The LOS predictor runs online and at every instance of time produces two matrices: first is the matrix of minimal predicted distances $D_{min}$ among the surveyed aircraft, and second is the matrix of corresponding relative positions on the path $P_{LOS}$. Based on the comparison of $D_{min}$ with FAA defined minimal separation bounds $D_{req}$ for different types of scenarios( aircraft and airspace type) the LOS predictor calculates a binary matrix of potential separation violations $B_{LOS}$ that along with $P_{LOS}$ uniquely identifies the aircraft involved, routes, and the relative time to collision. 
+\item \textbf{\emph{Predictor of LOS event (LOS)}:} The LOS predictor is an open-loop ''integrator`` that dead reckons the speed dynamics of all airplanes that communicate their state(position on the path), current speed and the intent (parameterized path). The time of integration is defined by the ''neighboring`` aircraft that is positioned at the longest distance from the own craft. The LOS predictor runs online and at every instance of time produces two matrices: first is the matrix of minimal predicted distances $D_{min}$ among the surveyed aircraft, and second is the matrix of corresponding relative positions on the path $P_{LOS}$. Based on the comparison of $D_{min}$ with FAA defined minimal separation bounds $D_{req}$ for different types of scenarios( aircraft and airspace type) the LOS predictor calculates a binary matrix of potential separation violations $B_{LOS}$ that along with $P_{LOS}$ uniquely identifies the aircraft involved, routes, and the relative time to collision.
 
-Similarly, a second LOS predictors can be run in parallel to verify for example the ''worst case scenario`` of interest. In particular, assuming that all ''neighboring`` aircraft initially know their  position on the path but there might be a deviation of speed of given magnitude and loss of communication of chosen duration, the LOS algorithm can produce the result that predicts a possibility of separation violation at much earlier time. 
+Similarly, a second LOS predictors can be run in parallel to verify for example the ''worst case scenario`` of interest. In particular, assuming that all ''neighboring`` aircraft initially know their  position on the path but there might be a deviation of speed of given magnitude and loss of communication of chosen duration, the LOS algorithm can produce the result that predicts a possibility of separation violation at much earlier time.
 
-\item \textbf{\emph{Separaton Resolver (SR)}:} Before submitting the matrix of potential LOS events $B_{LOS}$ to the DCL law for automatic speed adjustment, the system need to address the task of ordering the aircraft on their paths and injecting a new aircraft into the queue; the aircraft that completes its flight, automatically does not have any neighbors and thus leaves the queue and the coordination network. 
+\item \textbf{\emph{Separaton Resolver (SR)}:} Before submitting the matrix of potential LOS events $B_{LOS}$ to the DCL law for automatic speed adjustment, the system need to address the task of ordering the aircraft on their paths and injecting a new aircraft into the queue; the aircraft that completes its flight, automatically does not have any neighbors and thus leaves the queue and the coordination network.
 
 The SR performs ordering of the aircraft along the normalized path by adding the required separation distance (normalized) to the coordination variable (relative position on the path) of conflicting airplane. Resulting matrix $D_{cmd}$ obtained across all ''neighboring`` aircraft is the reference command to be followed by the CDL law.
 
@@ -342,10 +356,10 @@ The system initialization in both modes should be the same. The framework can be
 
 When utilized in \textbf{\emph{''the worst case scenario``}} mode the system runs along the  parameterized paths with the predefined dynamics of aircrafts and evaluates the matrix of separation distances $D_{min}$ for all pairs of aircraft in the chosen airspace segment  and in the presence of simulated adverse communication conditions caused by the capabilities of individual and integrated data broadcast systems.
 
-Assuming that airborne aircraft might execute the same feedback control algorithms that are implemented on the ground, it is sufficient to identify the maximum severity of the loss of communication before there is no speed control action that can resolve the separation conflict. Thus starting with an initial combination of communication failures and speed deviations the framework obtains the binary matrix of potential separation violations $B_{LOS}$ and associated $P_{LOS}$ along with the coordination law that strives to avoid the loss of separation. If  the speed control for each aircraft is capable of preventing the loss of separation then the simulated adverse communication conditions can be ''worsen``. Thus following the ideas of $\gamma$-Iteration method from Robust Control ~\cite{zhou1998essentials} the procedure can be iterated until the capabilities of speed control of the aircraft in LOS condition are not sufficient to guarantee desired separation. 
+Assuming that airborne aircraft might execute the same feedback control algorithms that are implemented on the ground, it is sufficient to identify the maximum severity of the loss of communication before there is no speed control action that can resolve the separation conflict. Thus starting with an initial combination of communication failures and speed deviations the framework obtains the binary matrix of potential separation violations $B_{LOS}$ and associated $P_{LOS}$ along with the coordination law that strives to avoid the loss of separation. If  the speed control for each aircraft is capable of preventing the loss of separation then the simulated adverse communication conditions can be ''worsen``. Thus following the ideas of $\gamma$-Iteration method from Robust Control ~\cite{zhou1998essentials} the procedure can be iterated until the capabilities of speed control of the aircraft in LOS condition are not sufficient to guarantee desired separation.
 
 Interpreting the resulting speed coordination law (computed by the DCL module on the ground) resulting from the worst case scenario would be analogous to the control law in the robust control task that maximizes the magnitude of disturbance caused by the low connectivity condition across all available communication channels with the assumption that speed of each aircraft can be varied in a given interval.
-%As introduced before, the resulting separation matrix $D_{min}$ that represents the minimal separation distances between the $i$ and $j$ airplane pairs can be naturally used as the metric for separation assurance. The minimum value of entries of this metric are compared to the minimal distances nominally required by the FAA for each type of aircraft identified in possible violation of separation bounds. 
+%As introduced before, the resulting separation matrix $D_{min}$ that represents the minimal separation distances between the $i$ and $j$ airplane pairs can be naturally used as the metric for separation assurance. The minimum value of entries of this metric are compared to the minimal distances nominally required by the FAA for each type of aircraft identified in possible violation of separation bounds.
 Obviously, that ``the worst case scenario'' might result in a number of ''panic`` pairs of the separation matrix $B_{LOS}$. All of the ''panic pairs`` are the advisories for the ATC system and need to be monitored.
 
 To automate the monitoring process the same algorithms of iSEALC framework need to be utilized in \textbf{\emph{''monitoring``}} mode when the system as before runs online and is updated by real data coming from all aircrafts in the considered segment. The varying communication conditions resulted from low connectivity or even loss of communication will necessarily result in adjusting the nominal speed control laws assigned to the aircrafts at the initialization stage. However, the DCL architecture and the distributed nature of the speed coordination law will timely adjust the speed profiles of each aircraft in a potential separation violation condition identified by the ''worst case scenario``. As long as the coordinated control law is not saturated (saturation bounds are different for each type of aircraft)  for the entire flight time the ''panicked`` mode will not be confirmed. In turn, if the control law of a specific aircraft is saturated all the time, then the panicked mode is confirmed and the corresponding advisory is given ahead of time to the ATC personnel with detailed specification of time to possible violation of separation bounds. This alarming condition still does not confirm the fact of collision as the onboard TACAS or ADS-B and other systems still provide pilots and onboard intelligence with sufficient information to avoid a collision. In this sense the proposed system is complementary to the available capabilities.
@@ -425,7 +439,7 @@ All developed materials, including relevant literature reviews, algorithms, proo
 \pagenumbering{arabic}
 % ==============================================================================
 \bibliographystyle{ieeetran}
-\bibliography{MasterRef}
+\bibliography{nasa_nra}
 % ==============================================================================
 
 \end{document} 
