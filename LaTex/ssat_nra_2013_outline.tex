@@ -114,7 +114,13 @@
 %==============================================================================
 
 %------------------------------------------------------------------------------
-\textbf{\emph{Objective}:} The proposed research will develop an analytical framework for assessing the impact of miscommunication or low-connectivity conditions on the automated separation assurance of multiple cooperative airplanes sharing the same airspace. The Intergraded Separation Assurance In Low-Connectivity (iSEALC) framework is a solution of future high-density self-separating airflow envisioned by NextGen. iSEALC framework is based on the notion of  multiple cooperative aircraft flying along their parameterized routes and sharing their state and intent information. The framework takes into account the switching topology and possibly degraded connectivity of the existing communication networks defined for NextGen and performance characteristics of heterogeneous aircraft.
+\textbf{\emph{Objective}:} The proposed research will develop an analytical framework for assessing the impact
+of mis-communication or low-connectivity conditions on the automated separation assurance of multiple cooperative
+airplanes sharing the same airspace. The Intergraded Separation Assurance In Low-Connectivity (iSEALC) framework
+is a solution of future high-density self-separating airflow envisioned by NextGen. iSEALC framework is based on
+the notion of  multiple cooperative aircraft flying along their parameterized routes and sharing their state
+and intent information. The framework takes into account the switching topology and possibly degraded connectivity
+of the existing communication networks defined for NextGen and performance characteristics of heterogeneous aircraft.
 %The ultimate goal of the iSEALC framework is to provide a rapidly accessible and verifiable tool for assessing the separation guarantees of a given number of airplanes in a given ATC sector with degraded communication capabilities.
 %The tool is  envisioned first to be integrated into existing mode of air traffic management as an advisory aid. At the second phase the distributed coordination algorithm can be implemented onboard thus enabling automation of the path following and coordination.
 The technical challenges that will be addressed are the four subtopics of AFSC-1.5:
@@ -138,7 +144,9 @@ The technical challenges that will be addressed are the four subtopics of AFSC-1
 %%------------------------------------------------------------------------------
 %\vspace{-1mm}
 
-Research will build upon past expertise with the Coordinated Path Following (CPF) of Multiple UAVs project and the use of novel adaptive control strategies to ensure a predictable response of a system of multiple aircraft sharing the same airspace in the presence of adverse communication conditions.
+Research will build upon past expertise with the Coordinated Path Following (CPF) of Multiple UAVs project and
+the use of novel adaptive control strategies to ensure a predictable response of a system of multiple aircraft
+sharing the same airspace in the presence of adverse communication conditions.
 %The adverse communication conditions were defined by the degradation of the quality of communicated states which uniquely identify relative position and intent of the airplanes along their routes.
 %This quality IS defined by the completeness of the state vector that specifies the state of the aircraft (position, speed course, trajectory angle, intent), the update rate of communicating the states across the network, and the network topology that might have disconnected segments. Special emphasis will be placed on the cumulative (over time) degradation of the communication topology and advanced algorithms of estimating of partially-communicated states across the time-varying network.
 The solution is based on transforming the key theoretical results of the CPF framework that is based on the 4D notion of trajectory representation; the trajectory consists of the 3D analytical path and the 1D velocity profile associated with the path. Multiple aircraft can safely follow the same paths that intersect in space but are still separated in time.
@@ -164,7 +172,11 @@ The solution is based on transforming the key theoretical results of the CPF fra
 \medskip
 
 %------------------------------------------------------------------------------
-\textbf{\emph{Relevance to NASA Strategic Plan}:} The proposed research develops novel distributed control architecture that facilitates automation in airspace management while preserving robust separation assurance properties through scalability and cooperative computation. The proposed framework  assures safe operation under the communication technologies  and the air traffic mode of operation defined for NextGen. %Besides compliance with current state of the art in NAS, the iSEALC framework perfectly matches the NextGen concept through applying its 4D-based trajectory representation, relying on distributed communication and computational capabilities that provide unprecedented scalable benefits and efficiency for the increased capacity of future NAS.
+\textbf{\emph{Relevance to NASA Strategic Plan}:} The proposed research develops novel distributed control
+architecture that facilitates automation in airspace management while preserving robust separation assurance
+properties through scalability and cooperative computation. The proposed framework  assures safe operation under
+the communication technologies  and the air traffic mode of operation defined for NextGen.
+%Besides compliance with current state of the art in NAS, the iSEALC framework perfectly matches the NextGen concept through applying its 4D-based trajectory representation, relying on distributed communication and computational capabilities that provide unprecedented scalable benefits and efficiency for the increased capacity of future NAS.
 The proposed framework addresses the fundamental objectives of Subtopic~\mbox{AFCS-1.5} that is a part of the System-Wide Safety Assurance Technologies project  announced by the NASA Aeronautics Research Mission Directorate in support of NASA Strategic Goal~4 and Outcomes~4.1 and 4.2.
 
 % ===== end Executive Summary   ===============================================
@@ -191,7 +203,7 @@ The proposed framework addresses the fundamental objectives of Subtopic~\mbox{AF
 
 The main objective of this research is to develop assessment and mitigation tool and methods of automatic separation assurance which are capable to provide provable evidence of a desired level of safety of multiple cooperative airborne aircraft in the presence of degraded or intermittently lost communication. Degraded or even lost communication with air traffic controllers is one of the major reasons of fatal aircraft accidents~\cite{Kochenderfer_2012}. The proposed  Intergraded Separation Assurance In Low-Connectivity (iSEALC) framework takes into account the switching topology and possibly degrading connectivity of the existing communication networks and the flight characteristics of heterogeneous airplanes. The key enabling blocks of the iSEALC framework are the distributed coordination law and the set of proactive state estimators that enable self-separating cooperative flow of multiple aircraft in the presence of severely degraded communication.
 
-The ultimate goal of the iSEALC framework is to provide a rapidly accessible and verifiable tool for assessing the separation guarantees of a given number of airplanes in a given ATC sector with degraded communication capabilities.  The tool is  envisioned first to be integrated into existing mode of airspace management as an advisory aid. At the second phase the fundamental coordination algorithms can be implemented onboard thus enabling automation of the path following and coordination. The technical challenges that will be addressed with iSEALC are the four subtopics of AFSC-1.5:
+The ultimate goal of the iSEALC framework is to provide a rapidly accessible and verifiable tool for assessing the separation guarantees of a given number of airplanes in a given ATC sector with degraded communication capabilities.  The tool is  envisioned first to be integrated into existing mode of airspace management as an advisory aid. At the second phase the distributed coordination algorithms can be implemented onboard thus enabling automation of the path following and coordination. The technical challenges that will be addressed with iSEALC are the four subtopics of AFSC-1.5:
 \vspace{-2mm}
 \begin{itemize}
 \setlength{\itemsep}{-4pt}
@@ -215,7 +227,7 @@ We believe that integrating iSEALC architecture will be constructive in fundamen
 % =============================================================================
 
 % -----------------------------------------------------------------------------
-\subsection{Background and Motivation }
+\subsection{Motivation and Background}
 % -----------------------------------------------------------------------------
 In 2006 it was estimated~\cite{FAA_ATO_2006} that there were about 7,000 aircraft occupying national airspace (NAS) at any given time. This number implies that there are almost 50,000 aircraft transiting the NAS everyday. The airspace is busy being constantly under stress and diverse set of adverse conditions coming from both the human and technological factors, as well as from the environment. Although the rate of air traffic control (ATC) errors of various categories remains low,  when taken cumulatively over a longer period of time, the dynamics of the ATC error rate in 2006 indicate a $68\%$  increase when compared to those reported in 1998~\cite{USAToday_2006}. According to FAA statistics, the number of reported operational errors increased by more than 50 percent between fiscal years 2009 and 2010. Thus, considering a constantly increasing air traffic density, this positive trend in ATC and operational error rates might result in a serious increase in the number of accidents in near future.
 
@@ -227,7 +239,7 @@ First, it is worth illustrating the widespread of LOS events and the general nat
 
 On February 6, 2013  a number of  passenger planes were involved in a serious LOS incident in Finland~\cite{Vantaa_IR2013}.  Three civil aircraft were on approach to runway at Helsinki-Vantaa Airport; Norwegian Boeing-737, was on final approach, followed by a Flybe Nordic ATR, and a British Airways Airbus A320. A \emph{sequence of uncoordinated events} between aircrafts and the ATC controller cased two sequential breaches of separation minima between each aircraft in pairs. Although there was no risk of collision according to the Safety Investigation Authority Finland~\cite{Vantaa_IR2013}, the LOS event was classified as a 'serious incident'.
 
-On July 29th, 2011, a loss of separation occurred between two Boeing-737 aircrafts in the holding pattern at 93 miles south-west of Brisbane, Queensland\cite{Brisbane_ATSR2011}. The aircraft were inbound to Brisbane airport on the same air route, with a requirement to hold at BLAKA for sequencing. The air traffic controller did not identify that the sequence in which the two aircraft entered the holding pattern had changed, and twice assigned one of the aircraft descent through the flight level of another. The flight crew of lower flying aircraft identified the conflict and queried the controller, who then took action to recover the compromised separation situation. During the LOS event the separation reduced to 3.9 miles and 400 ft, while the required separation standard was 5 miles and 1000 ft. The Australian transport safety bureau identified that the controller was \emph{insufficiently trained}, and had not consolidated effective control techniques for the sector, particularly for high-workload situations.
+On July 29th, 2011, a loss of separation occurred between two Boeing-737 aircrafts in the holding pattern at 93 miles south-west of Brisbane, Queensland\cite{Brisbane_ATSR2011}. The aircraft were inbound to Brisbane airport on the same air route, with a requirement to hold at Brisbane approach for sequencing. The air traffic controller did not identify that the sequence in which the two aircraft entered the holding pattern had changed, and twice assigned one of the aircraft descent through the flight level of another. The flight crew of lower flying aircraft identified the conflict and queried the controller, who then took action to recover the compromised separation situation. During the LOS event the separation reduced to 3.9 miles and 400 ft, while the required separation standard was 5 miles and 1000 ft. The Australian transport safety bureau identified that the controller was \emph{insufficiently trained}, and had not consolidated effective control techniques for the sector, particularly for high-workload situations.
 
 The examples present very limited information taken primarily from the high-end instrumented aircraft and sufficient level of ATC support. However they do illustrate that the general practices and regulations tend to assign human error as the primary cause for the LOS incident. While the required human training and stuffing side is taken care by a number of FAA procedural changes and regulations\cite{OIG_AR2013} the lack of technology support is also evident. The number and variety of disparate sources of information characterizing excessively complex airspace require significant automation to be developed in support of airspace management. The algorithms of predicting potential LOS event for much longer time, possibly up to the remaining flight duration, as a desired metric still need to be developed. Automatic assignment of en route and terminal approach sequencing of aircraft need to be automated and made dependent on the performance and equipage of the aircraft. The strategies accounting for the degraded communication among the ATC personnel on the ground and the airborne aircraft need to be developed.
 
@@ -235,7 +247,7 @@ At the same time, it also clear that there is no seldom single cause for an airc
 
 It is important to observe that although the current mode of airspace management assumes detailed knowledge of flight plan of every commercial aircraft that includes the detailed route and assigned speed profile, yet the LOS and MAC events happen. The probability of these events is unevenly shared between the en route and terminal airspace segments with the latter one contributing the vast majority of the occurrences; various sources including government authorities, industry and private sector provide inconsistent and therefore significantly ranging data, however the dominance of terminal airspace is obvious.
 
-Furthermore, it is evident that ATC controllers have access to enormous amount of information obtained by disparate sources. Although supported by a number of technologies it is still their responsibility to fuse heterogeneous sources of information, interpret and keep updating the situational awareness so that their advisories to the crew are timely and unambiguous. On the other hand, the pilots have significant degree of freedom of interpretation of the advisories and the onboard instrumentation readings. Thus, being under stress of close proximity flight, they are often confused with frequent advisories~\cite{Kochenderfer_2012} given by the onboard systems (TACAS, ACAS, ACASx) on one hand and the instructions received from the ATC controllers on the other. When overloaded, the pilot is likely to make a mistake leading to fatal consequences. Therefore, although human errors are the biggest contributors to the LOS accidents, the current operational load of ATC controllers and pilots is approaching its limit. There is obvious need not only to automate the heterogeneous information fusion but also to develop tools and methods that would detect the possibility of LOS way ahead of its occurrence.
+Furthermore, it is evident that ATC controllers have access to enormous amount of information obtained by disparate sources. Although supported by a number of technologies it is still their responsibility to fuse heterogeneous sources of information, interpret and keep updating the situational awareness so that their advisories to the crew are timely and unambiguous. On the other hand, the pilots have significant degree of freedom of interpretation of the advisories and the onboard instrumentation readings. Thus, being under stress of close proximity flight, they are often confused with frequent advisories~\cite{Kochenderfer_2012} given by the onboard systems ( various Collision Avoidance Systems (CAS) like TACAS, ACAS, ACASx) on one hand and the instructions received from the ATC controllers on the other. When overloaded, the pilot is likely to make a mistake leading to fatal consequences. Therefore, although human errors are the biggest contributors to the LOS accidents, the current operational load of ATC controllers and pilots is approaching its limit. There is obvious need not only to automate the heterogeneous information fusion but also to develop tools and methods that would detect the possibility of LOS way ahead of its occurrence.
 
 %As a result this separation of responsibilities, the most LOS events are classified as an  \emph{operational error} ,when the controller's actions caused the loss, while if the pilot's actions caused the LOS it is classified as a pilot \emph{deviation} and are not typically associated with errors caused by the situational awareness (instruments and algorithms) and data communication infrastructure.
 
@@ -264,42 +276,82 @@ Prevention of separation violation accidents becomes even more crucial in future
 In the context of automatic separation assurance as a part of the NextGen, the development of iSEALC framework will focus on ($i$) the analysis of  minimal necessary data to uniquely identify the state and intent of an aircraft in the air and the required communication bandwidth, ($ii$) study nomenclature and limitations of current communication technologies from the perspective of their individual and cumulative contribution,($iii$) design novel algorithms to estimate the relative states of  neighboring aircraft in degraded communication conditions, and the contribution of these states into unified coordination control law, ($iv$) understand the limitations of separation performance of the designed cooperative control law as functions of the communication constraints and the aircraft performance limitations. As envisioned, the unified coordinated control law is constantly active throughout the entire flight, the iSEALC framework is persistently predicting the LOS event for each and all aircraft in the fleet. Hence, rather than intervening sequentially at the last moment and possibly leading to loss of separation and even mid air collision, the system will react as a normal feedback control law providing its desired performance and robustness guarantees.
 
 % -----------------------------------------------------------------------------
+\subsection{Envisioned Solution}
+\label{subsec:envisioned_solution}
+% -----------------------------------------------------------------------------
+The multi-vehicle cooperation aspect of the considered problem has been cast into information theoretic framework and applied to a number of engineering and science problems over the past decade. The range of topics explored is vast and includes synchronization of oscillators \cite{Sepulchre}, study of collective behavior and flocking
+\cite{jadbabaie03}, multi-system consensus mechanisms \cite{lin05}, multi-vehicle system formations\cite{egerstedt01},
+coordinated motion control \cite{ghabcheloo06}, asynchronous protocols \cite{Fang}, dynamic graphs \cite{mesbahi},
+stochastic graphs \cite{mesbahi, Stilwell, Stilwell2}, graph-related theory \cite{caom, Kim-Meshabi}.
+Especially relevant to the loss of separation and safety of flight are the applications of the theory developed in the area of multi-vehicle formation control: spacecraft formation flying \cite{mesbahi-hadaegh}, unmanned aerial vehicle control (UAVs) \cite{Song, Stipanovic}and control of multiple underwater vehicles \cite{pereira}.
+
+It has been shown~\cite{jadbabaie03,tanner05,saber07} that solution to these
+problems leads to solving an Agreement or Consensus problem over a graph that represents the underlying communication
+constraints and is characterized by dynamics of the autonomous agents. However, stability and
+performance of these formations depends on the nature of the underlying communication topology.  Therefore, a major thrust of current research has been focused on the analysis of the impact of various communication models on stability and performance of the formations of autonomous agents. In \cite{fax04}, the network topology is assumed to be fixed and bidirectional. On the other hand, \cite{Francis-directed} addresses networks with fixed directional topology. Time-varying network topology in deterministic setting is addressed in \cite{jadbabaie03,Moreau,lin05}, while  stochastic models are used in \cite{mesbahi, Stilwell, Stilwell2}. Furthermore, state-dependent graphs are used to model distance between agents
+or signal strength of each link in formation \cite{mesbahi}.
+
+The agents are usually modeled as identical single integrators \cite{jadbabaie03,Moreau},  nonholonomic integrators
+\cite{ Francis-directed,beard:coop-book,Leonard}, identical linear systems \cite{fax04} or a class of linear systems
+\cite{dandrea}. The nonholonomic integrators are typically used to model dynamic systems such as AUVs \cite{Leonard},
+robots \cite{Francis-directed,lin05} and UAVs \cite{mclain,beard:coop-book}. These simplified models may not
+be adequate to represent complex vehicles such as aircraft executing complex en route or terminal airspace maneuvers.
+
+The proposed framework uses an alternative approach for the development of cooperative control algorithms that makes
+very general assumptions on the vehicle dynamics. The framework proposes solutions suitable for the time-coordinated flights in a given bounded airspace sector and leverages on the graph theoretic results available in the cooperative control literature to account for the underlying communications constraints. We propose to address these issues in the
+framework of {\it coordinated path following}. The key idea of the this approach is to decouple space and time in the formulation of path planning problem;this significantly reduces the size of the optimization space and guarantees that it increases\emph{linearly} with the number of aircraft. These features allow for straightforward close to real-time implementation of the path generation algorithm. Focused on the separation assurance task, however we shall limit our scope and thus assume that the path following problem is solved independently onboard of each aircraft by the coupled pilot-autopilot system.
+
+What remains is the coordination that needs to be solved to guarantee the separation of the aircraft when en route. The proposed framework assumes that the speed profile of each vehicle can be adjusted to enforce the temporal constraints that must be met in real-time in order to coordinate the entire fleet. Decoupling space and time in the path following problem formulation leaves the velocity of each  vehicle as an additional  degree of freedom to be exploited for the solution of the time coordination problem -- coordinating position of each vehicle in time along a feasible path generated by the path planning algorithm.  This step relies on the underlying communication network as a means of information exchange between vehicles. We propose to model the network topology both in deterministic and stochastic settings and to study its impact on the performance of the complete system consisting of multiple autonomous agents tracking pre-defined paths while coordinating their motion along these paths over a \emph{ time-varying faulty network}. Clearly, the methodology proposed relies on the decoupling of spatial and temporal assignments during the path planning, path following and coordination phases, respectively.
+
+% -----------------------------------------------------------------------------
 \subsection{Current Theoretical Developments and Results}
 \label{subsec:current_develop}
 % -----------------------------------------------------------------------------
 
-The research team has successfully completed extensive research~\cite{xargay2012csm} in three key areas of this proposal: \emph{cooperative control of multiagent heterogeneous systems}, \emph{coordination performance degradation under adverse communication conditions}, and \emph{online estimation of partially known coordination states resulted from low-communication conditions}. Furthermore, the team made serious efforts to validate the key theoretical claims in a series of flight experiments involving multiple coordinated UAVs. The proposed research will build further upon these results. Therefore, an overview of the results is presented in this section.
+The research team has significant research experience~\cite{xargay2012csm} in three key areas of this proposal: \emph{cooperative control of multiagent heterogeneous systems}, \emph{coordination performance degradation under adverse communication conditions}, and \emph{online estimation of partially known coordination states resulted from low-communication conditions}. Furthermore, the team made serious efforts to validate the key theoretical claims in a series of flight experiments involving multiple coordinated UAVs. The proposed research will build further upon these results. Therefore, an overview of the results is presented in this section.
 
 \subsubsection{The Concept of Distributed Coordination }
 
 ...
 
-\subsubsection{Coordination Performance Degradation Under Adverse Communication Conditions}
+\subsubsection{Degradation of Coordination Performance}
 
 ...
 
 %\subsubsection{Online estimation of partially known coordination states resulted from low-communication conditions}
-% this subsection proposes new development . It should go to 
+% this subsection proposes new development . It should go to
 
 % -----------------------------------------------------------------------------
 \subsection{The Framework for Prevention of Loss of Separation }
 \label{subsec:framework}
 % -----------------------------------------------------------------------------
 
-\subsubsection{Overview}
-The architecture of iSEALC framework proposed in this research effort adopts the concept and the key methods of coordinated path following that were introduced in the previous section. The iSEALC framework extends the developed  approach with algorithms and control schemes capable of rapidly identifying potential violations of separation assurance for given performance of heterogeneous aircrafts. 
+\subsubsection{Overview of the Framework and the Task Statement}
+The architecture of iSEALC framework proposed in this research effort adopts the concept and the key methods of coordinated path following that were introduced in the previous section. The iSEALC framework extends the developed  approach with algorithms and control schemes capable of rapidly identifying potential violations of separation assurance for given performance of heterogeneous aircrafts.
 
 While the originally developed coordination algorithms provide robustness guarantees with respect to intermittent loss of communication the envisioned high density of future air-traffic and the complexity of networked communication still call for novel approaches that can accommodate unforseen conditions. To address this problem we propose to develop a set of onboard proactive estimators to improve the knowledge that each airplane (or node in the network of aircraft) has about the coordination states of other vehicles, while  broadcasting its own coordination state to its neighbors, as determined by the time-varying communications topology. The states of the local estimators can then be used by the decentralized control law to enforce vehicle coordination even during time-intervals when the actual coordination states of ''neighboring`` vehicles are not available. The use of local proactive estimators improves the convergence rate of the closed-loop coordination dynamics in low-connectivity scenarios.
 
-In the following we first formulate the task statement that the iSEALC framework solves and the building blocks of the proposed framework including the proactive estimators and the required software infrastructure necessary to interface with the real ATC data.
+The iSEALC framework addresses the following main airspace management problem:
+%-----------------------------------------
+\vspace{-2mm}
+\begin{itemize}
+\setlength{\itemsep}{-4pt}
+    \item For a given geometrically bounded airspace sector that includes a given number of cooperative aircraft flying along the preassigned paths with nominal speed profiles, what are the pairs of paths that intersect in time?
 
+    \item If a number of collisions in time is identified ahead of time and the aircraft exchange their coordination states over the faulty communication network characterized by the rate of loss of information [give a ref to PE condition], what are the control law and the minimal time to LOS event required to successfully adjust speed of aircraft involved to prevent the LOS event.
+\end{itemize}
+\vspace{-2mm}
 
+A solution to these problems must necessarily involve the knowledge of the paths defined at the path planning step, where the an appropriate route optimization  problem is solved. Assuming that the knowledge of nominal paths and speed profile can be exchanged via broadcast of minimal number of path and speed defining parameters, results in a simple task of verifying if the paths intersect in time. Next, a complete solution must include a coordination algorithm between the aircraft that provides robustness to the execution of path following and separation assurance for the entire fleet in the presence of faulty communication networks.
 
-\subsubsection{Task Statement for the }
+In the following we present the building blocks of the proposed framework including the proactive estimators and the software infrastructure necessary to interface with the real ATC data.
 
 \subsubsection{Design of Proactive Estimators}
 ... Enric
+
+
 \subsubsection{Functionality of the Framework and its Key Elements}
+\label{subsubsec:functionality}
 It is assumed in the following that the aircraft exhibit nominal flight performance and can accelerate and decelerate, climb and descent with nominal known characteristics.  Although degradation of flight dynamics characteristics is out of scope of this proposal, the originally developed CPF framework also addresses this problem and therefore corresponding tolls and methods can easily extend the solution proposed by iSEALC framework.
 
 The envisioned functionality of iSEALC framework is based on the following key elements (see Figure\ref{fig:KeyAlg} for illustration):
@@ -323,7 +375,7 @@ The envisioned functionality of iSEALC framework is based on the following key e
 
 \item \textbf{\emph{Distributed coordinated control law (DCL)}:} The DCL is the baseline coordination controller that takes as an input the actual communication topology of ''neighboring`` aircraft, their relative position (coordination variable) on the path, the desired separation matrix $D_{cmd}$ (will be defined by the separation resolver),  and produces the speed adjustment advisories for the pilot or the reference command for the onboard autopilot. The objective of the controller is to achieve consensus of coordination variables transmitted over faulty network, thus to force multiple aircraft to fly along their path in coordination. The set point of this control law (''virtual leader``) is defined based on the desired ''throughput`` that can be set either for the entire route or for the sequence of sectors that contain the route.  The ''neighboring`` aircraft is the one that has an intersecting route within the flight time of analyzed vehicle.
 
-The controller assumes that the own aircraft flight dynamics characteristics are given (for example $min$ and $max$ speed), the performance characteristics of ''neighboring`` aircraft are known as they are communicated over the underlying network. As it is presented in~\cite{xargay2012csm} the control law guarantees convergence of coordination variables and robustness of the controller to the loss of communication over a bounded period of time; in other words the rate of convergence of the coordination control loop is limited by the QoS of the communications network.
+The controller assumes that the own aircraft flight dynamics characteristics are given (for example $min$ and $max$ speed), the performance characteristics of ''neighboring`` aircraft are known as they are communicated over the underlying network. As it is presented in~\cite{xargay2012csm} the control law guarantees convergence of coordination variables and robustness of the controller to the loss of communication over a bounded period of time; in other words the rate of convergence of the coordination control loop is limited by the quality of service of the communications network.
 
 \item \textbf{\emph{Proactive state estimator of neighboring aircraft (PNE)}:} The PNE is an onboard estimator that is developed to improve the knowledge that each airplane (or node in the network of aircraft) has about the coordination states of other vehicles, while  broadcasting its own coordination state to its neighbors, as determined by the time-varying communications topology. The states of the local estimators can then be used by the DCL law to enforce vehicle coordination even during time-intervals when the actual coordination states of ''neighboring`` vehicles are not available. The use of local PNE estimators improves the convergence rate of the closed-loop coordination dynamics in low-connectivity scenarios. The input to the PNE is the same as the input to the DCL law - the communication topology and the coordination variables.
 
@@ -333,7 +385,7 @@ Besides improving  the convergence rate of the coordination dynamics, the PNE es
 
 Similarly, a second LOS predictors can be run in parallel to verify for example the ''worst case scenario`` of interest. In particular, assuming that all ''neighboring`` aircraft initially know their  position on the path but there might be a deviation of speed of given magnitude and loss of communication of chosen duration, the LOS algorithm can produce the result that predicts a possibility of separation violation at much earlier time.
 
-\item \textbf{\emph{Separaton Resolver (SR)}:} Before submitting the matrix of potential LOS events $B_{LOS}$ to the DCL law for automatic speed adjustment, the system need to address the task of ordering the aircraft on their paths and injecting a new aircraft into the queue; the aircraft that completes its flight, automatically does not have any neighbors and thus leaves the queue and the coordination network.
+\item \textbf{\emph{Separation Resolver (SR)}:} Before submitting the matrix of potential LOS events $B_{LOS}$ to the DCL law for automatic speed adjustment, the system need to address the task of ordering the aircraft on their paths and injecting a new aircraft into the queue; the aircraft that completes its flight, automatically does not have any neighbors and thus leaves the queue and the coordination network.
 
 The SR performs ordering of the aircraft along the normalized path by adding the required separation distance (normalized) to the coordination variable (relative position on the path) of conflicting airplane. Resulting matrix $D_{cmd}$ obtained across all ''neighboring`` aircraft is the reference command to be followed by the CDL law.
 
@@ -372,16 +424,19 @@ To achieve the most effective mode of operation the iSEALC system can be integra
 \subsection{Verification and Validation}
 % -----------------------------------------------------------------------------
 
-In order to validate the effectiveness and performance of the proposed research in preventing separation violation, the iSEALC system will be implemented in the Software-in-the-Loop~(SIL) and Hardware-In-The-Loop flight simulation. The team also proposes to transition the developed iSEALC framework to NASA LaRC or AMEs for implementation on the ATC simulators, which provides an actual airspace management environment to validate the developed technologies.
+In order to validate the effectiveness and performance of the proposed research in preventing separation violation, the iSEALC system will be first validated in the Software-in-the-Loop~(SIL) and Hardware-In-The-Loop (HIL) flight simulations using computational and hardware capabilities~\cite{dobrokhodov2013RFCPS} of the NPS and UIUC team. The focus of this phase will be in the preliminary evaluation of the developed control strategies, their performance and the computational feasibility. The team also proposes to employ the advanced capabilities of the Air Traffic Control  and Future Flight Central(FFC) Simulators available at NASA Ames research center\cite{prevot2003distributed}, which provide high realism ATC environment from the perspectives of both the ATC controllers and the aircraft crew. The objective of this step is to proof the concept of distributed coordinated  control in a manned aircraft domain.
 
+\subsubsection{SIL and HIL Experiments}
+NPS and UIUC team has significant computational and rapid control prototyping tools and facilities to enable initial validation and verification of the developed distributed control strategies. The key technological objective of verification is to evaluate the theoretically predicted performance of the distributed control law.
 
-\subsubsection{Full-Scale Simulated Experiments}
+The UIUC/NPS team has been actively collaborating for the past decade and acquired significant knowledge in the theoretical aspects and in flight validation and verification of advance control strategies primarily focusing on unmanned platforms. Although being successful in flight management of multiple research unmanned aircraft capable of long duration flight, and closely interacting with the professional ATC community, we realize that our experience in the manned aircraft domain is limited. Therefore we propose to start interaction with the targeted community of ATC controllers at NASA Ames center at the early stage of project development. The objectives are twofold. First, this interaction enables solid understanding of the practical issues associated with current communication technologies (their mode of operation, technological and performance limitations) onboard and on the ground. Second, this interaction will help formulating the most representative case studies that should be implemented in the SIL and HIL simulations.
 
-Need to find a NASA center with ATC and airspace management simulator.
+Utilizing the case studies developed at this stage we plan to integrate the distributed control laws onboard the flight control system of research UAVs, while simultaneously executing the iSEALC framework as a ground-based separation assessment tool. Experimental evaluation of the system in real-time computational environment should be instrumental in evaluating the performance of coordination algorithms as a tool for LOS assessment.
+
 
 \subsubsection{Technology Transition to NASA}
 
-We propose to transition the developed framework to the facilities of that center
+We propose to transition the developed framework to the advanced facilities of NASA Ames research center, and in particular to the NASA SimLabs ATC and FFC simulators\cite{prevot2003distributed}. Both simulators provide the highest possible fidelity of simulating the various aspects of air traffic management from the ATC controller's and crew's perspectives. Developing software interfaces to ATC/FFC simulators to enable verifying the capabilities of iSEALC framework would greatly benefit the outcomes of the project. The fundamental objective of this evaluation is in providing a proof of concept through qualitative and quantitative measurements of separation bounds, workload, efficiency of the coordination control law for various types of aircraft under realistic conditions.
 
 % ===== end Technical Approach and Methodology   ==============================
 
@@ -390,11 +445,9 @@ We propose to transition the developed framework to the facilities of that cente
 % =============================================================================
 \section{Impact and Relevance of the Proposed Research}
 % =============================================================================
-A fundamental design requirement for the NextGen air traffic control system is a highly reliable and safe method for automating separation assurance. The iSEALC concept departs significantly from the current methods of separation assurance, which primarily focus on mid to short term identification and detection of loss of separation with simplistic mitigation strategies. In contrast the iSEALC architecture offers fundamentally new approach to separation assurance that is based on the 4D trajectory management, collaborative route planning, new separation modes that are based on distributed speed coordination, the system-wide network-based information management while preserving key safety requirements of the system in the degraded communication conditions. The objective of the proposed solution is to enable coordination of multiple aircraft through integration of a unified distributed coordinated control law that is constantly active throughout the entire flight. The iSEALC distributed framework of identical cooperative controllers is persistently predicting the LOS event for each and all aircraft in the fleet. Hence, rather than intervening sequentially at the last moment and possibly leading to the loss of separation and even mid air collision, the system reacts as a normal feedback control law providing its desired performance and robust guarantees. We hope that, given both the opportunity to contribute to the program and appropriate level of funding, the solutions proposed by us can be matured and transitioned from the flight of multiple R\&D UAVs to the real operational environment of NASA LaRC.
+A fundamental design requirement for the NextGen air traffic control system is a highly reliable and safe method for automating separation assurance. The iSEALC concept departs significantly from the current methods of separation assurance, which primarily focus on mid to short term identification and detection of loss of separation with simplistic mitigation strategies. In contrast the iSEALC architecture offers fundamentally new approach to separation assurance that is based on the 4D trajectory management, collaborative route planning, new separation modes that are based on distributed speed coordination, the system-wide network-based information management while preserving key safety requirements of the system in the degraded communication conditions. The objective of the proposed solution is to enable coordination of multiple aircraft through integration of a unified distributed coordinated control law that is constantly active throughout the entire flight. The iSEALC distributed framework of identical cooperative controllers is persistently predicting the LOS event for each and all aircraft in the fleet. Hence, rather than intervening sequentially at the last moment and possibly leading to the loss of separation and even mid air collision, the system reacts as a normal feedback control law providing its desired performance and robust guarantees. We hope that, given both the opportunity to contribute to the program and appropriate level of funding, the solutions proposed by us can be matured and transitioned from the flight of multiple R\&D UAVs to the real operational environment of NASA Ames research center.
 
 % ===== end Impact and Relevance   ============================================
-
-
 
 % =============================================================================
 \section{General Plan of Work}
@@ -404,21 +457,73 @@ A fundamental design requirement for the NextGen air traffic control system is a
 \subsection{Key Milestones}
 % -----------------------------------------------------------------------------
 
-Within the next thirty-six months, if funded, the team of co-Is of this proposal will be working on ....
+Within the next thirty-six months, if funded, the team of co-Is of this proposal will be working on the development of iSEALC framework. We hope that starting in the second year we will conduct an extensive evaluation of iSEALC in the SIL and HIL simulation environments at UIUC and NPS. We propose the following scheduler with the understanding that the time frames for these milestones can be refined based on our interaction NASA personnel.
 
-During the first year of research the analytical framework for the analysis of the individual and integrated failure space of communication technologies will be developed to facilitate a better understand-ing of the single fault (separation failure) detection and its probable spread across the network of air-planes.
+\textbf{Year I:} We will work on synthesizing the iSEALC architecture including its onboard and the ground segments.
+Furthermore, we will choose and analyze in detail the individual and integrated failure space of 1-2 onboard communication
+technologies defined by the NextGen.
+%------------------Year I-----------------------
+\vspace{-3mm}
+\begin{itemize}
+\setlength{\itemsep}{-4pt}
+    \item Xargay will work on the development of proactive estimators that will significantly improve the knowledge that each airplane (or node in the network of aircraft) has about the coordination states of other vehicles.
 
-During the second year of research an explicit set of communication failures will be formalized based on the performance characteristics of existing ground and airborne ATC solutions: ADS-B, GPS, TIS-B, and CPDLC. The realistic setups representing nominal and worst case communication scenarios will be built and assessed in software simulations, thus providing numerical illustrations of achievable separation assurance bounds.
+    \item Hovakimyan will collaborate with Xargay on the development of theoretical proofs of performance of proactive estimators and the integration of the corresponding solutions into the iSEALC software environment.
 
-During the last year of research a set of representative scenarios will be developed that can be tested using high fidelity hardware-in- the-loop simulations and flight tests utilizing advanced capabilities which are available at NPS and NASA facilities. The separation assurance bounds will be investigated during comprehensive flight-testing by using different autopilots and UAVs instrumented with advanced Real-Time (RT) control capability. To achieve verifiable flight test results we propose to utilize the capabilities of the Rapid Flight Control Prototyping System (RFCPS) that allows for onboard integration and RT execution of advanced algorithms.
+    \item Dobrokhodov will work on the design of the predictor of the LOS events and the separation resolver. Solution of both tasks will require knowledge of current ATC operational procedures for en route and terminal airspace support, FAA regulations regarding the classes of airspace, types  of aircraft, and their communication instrumentation. This work should result in a software solution that implements both models.
 
+    \item Kaminer will collaborate with Dobrokhodov on the development of analytical models that implement the LOS predicting solutions.
+
+    \item Jones will analyze the set of existing communication technologies defined by NextGen. He will design a case study for 1-2 data broadcasting units with the objective of identifying its operational modes and associated performance limitations. The nomenclature of the communication technologies of primary interest will be identified via collaboration with NASA colleagues. He will also collaborate with Dobrokhodov in the overall design of iSEALC software architecture.
+\end{itemize}
+\vspace{-2mm}
+
+\textbf{Year II:} We will concentrate on developing the key building blocks of the iSEALC software architecture
+including its onboard and the ground segments. The ultimate goal of this year is to integrate the key functional
+components as discussed in ~\ref{subsubsec:functionality} into one software environment. Efforts of this year
+should also result in a set of representative airspace configuration scenarios that will be used during the last
+year of experimental validation studies.
+%-------------------Year II----------------------
+\vspace{-3mm}
+\begin{itemize}
+\setlength{\itemsep}{-4pt}
+    \item Xargay and Hovakimyan will work on the analysis of theoretical performance guarantees of the extended distributed coordination law that integrates the nominal baseline speed coordination and the newly developed proactive estimators. Xargay will also contribute to the software integration of the extended control law.
+
+    \item Dobrokhodov will work on the software integration of the developed LOS predictor, separation resolver and the extended control law into one unified software solution. 
+        
+    \item Dobrokhodov will collaborate with Jones and Xargay to implement onboard the extended decentralized control law using the capabilities of the Rapid Flight Control Prototyping environment with its flight testing at restricted airspace in Camp Roberts, CA. two most representative airspace management scenarios will be implemented by 2 research UAVs.
+
+    \item Kaminer will collaborate with Jones on the formal description of the individual and integrated failure space of the onboard communication solutions explored in the first year os studies. The objective of the effort is to produce a representative set of the ''worst case`` scenarios that will be utilized by the iSEALC run as a ground-based separation assessment tool.
+\end{itemize}
+\vspace{-2mm}
+
+\textbf{Year III:} We will focus on final software integration of the iSEALC framework with software interfaces that
+enable SIL and HIL experimental verification studies. This verification should be performed against the airspace
+configuration scenarios defined in the previous year. Special attention will be given to developing interfaces with
+NASA Ames high fidelity simulation environments. The ultimate goal of this year is to perform intensive validation
+of the iSEALC framework in the most challenging airspace management scenarios presented by the ATC and FFC simulators
+at NASA Ames.
+%-------------------Year III----------------------
+\vspace{-3mm}
+\begin{itemize}
+\setlength{\itemsep}{-4pt}
+    \item Dobrokhodov will develop software interfaces to enable SIL and HIL experimental verification of the iSEALC framework. Together with Xargay and Jones they will perform initial experimental evaluation of the framework against the ''worst case`` studies of onboard communication equipment and the most representative scenarios of air space configuration. Further , they will perform the experimental studies at NASA Ames facilities following the experimental evaluation plan developed in SIL/HIL studies. 
+        
+    \item Dobrokhodov will collaborate with Jones and Xargay to implement onboard the extended decentralized control law using the capabilities of the Rapid Flight Control Prototyping environment with its flight testing at restricted airspace in Camp Roberts, CA. two most representative airspace management scenarios will be implemented by 2 research UAVs.
+
+    \item Hovakimyan and Kaminer will work closely with NASA specialists to design the case studies and scenarios to be later tested on NASA Ames facilities.
+
+    \item All four members of the team will cooperate on the refinement of iSEALC based on the evaluation feedback obtained at NASA, and will finalize first release of iSEALC to NASA.
+\end{itemize}
+\vspace{-2mm}
+
+\textbf{Reporting:} It is anticipated that reporting of the results will be done to NASA on as-needed basis. Moreover, a yearly progress report will be filed, as well as an end-of-project report detailing all the findings. Results will also be published in conferences and archival journals. 
 
 % -----------------------------------------------------------------------------
 \subsection{Management Structure}
 % -----------------------------------------------------------------------------
 
-Naira Hovakimyan will be the PI on this proposal. She will closely collaborate with
-
+Naira Hovakimyan will be the PI on this proposal. She will closely collaborate with Enric Xargay, Isaac Kaminer, Vladimir Dobrokhodov, and Kevin Jones. Enric Xargay will assist in developing the proactive estimators and their analytical integration with the baseline coordination control law. Vladimir Dobrokhodov will assist in software integration of the theoretical findings. Isaac Kaminer and Kevin Jones will assist in analysis and evaluation of communication technologies and their limitations. This should result in identification of the individual and cumulative failure spaces of communication technologies defined by the NextGen. Their findings will help designing the ''worst case`` scenarios for the evaluation of iSEALC performance as a ground-based separation assessment tool. Naira Hovakimyan will be working with Enric Xargay of analytical proofs of  performance of the newly developed extended coordination control law. Budget is allocated to support two trips per year by the PI and one of the co-Is to NASA meetings and facilities.
 
 % -----------------------------------------------------------------------------
 \subsection{Data-Sharing Plan}
